@@ -1115,6 +1115,7 @@ body {
 }
 
 .header-right {
+    margin-right: 25px;
     display: flex;
     align-items: center;
     gap: 16px;
