@@ -1134,6 +1134,7 @@ body {
 }
 
 .active {
+    border: 2px solid #E0DEF7;
     width: 95px;
     height: 38px;
     background: #FFFFFF;
