@@ -109,10 +109,10 @@ body {
 
 .hero-image-box-1 {
     position: absolute;
-    width: 280px;
-    height: 285px;
+    width: 286px;
+    height: 296px;
     background: #fff;
-    border-radius: 10%;
+    border-radius: 8px;
     top: 114px;
     left: -2px;
     padding: 23px;
@@ -244,7 +244,7 @@ body {
 .hero-image-box-1-bottom {
     display: flex;
     justify-content: space-between;
-    margin: 16px;
+    margin: 21px;
 }
 
 .hero-image-box-1-bottom p {
@@ -1028,15 +1028,19 @@ body {
 }
 
 .property-details h4 {
-    margin-top: 15px;
+        margin-top: 8px;
     font-size: 24px;
     color: #000929;
 }
 
 .address {
+    margin-bottom: 15px;
     margin-top: 10px;
     color: #6C727F;
     font-size: 14px;
+}
+.property-details hr{
+    border: 1.5px solid #F0EFFB
 }
 
 .property-info {
