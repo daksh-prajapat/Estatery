@@ -64,8 +64,11 @@
                     </div>
                     <hr>
                     <div class="hero-content-location-1">
-                        <p>When </p>
-                        <h2>Select Move-in Date</h2>
+                        <p>When</p>
+                        <h2>
+                            Select Move-in Date
+                            <input type="date" style="width:19px;border:none;background:none; color: #000929;">
+                        </h2>
                     </div>
                     <hr>
                     <button>Browes Properties</button>
@@ -393,7 +396,7 @@
                         <span class="popular-tag">POPULAR
                             <i><img src="./Vector (1).png" alt=""></i>
                         </span>
-                        
+
                     </div>
                     <div class="property-details">
                         <div class="price-row">
@@ -783,7 +786,7 @@
         function initMobileMenu() {
             if (window.innerWidth <= 991) {
                 headerNav.style.position = 'fixed';
-                headerNav.style.top = '88px';
+                headerNav.style.top = '0px';
                 headerNav.style.left = '0';
                 headerNav.style.width = '280px';
                 headerNav.style.height = 'calc(100vh - 88px)';

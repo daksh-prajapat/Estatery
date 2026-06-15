@@ -268,8 +268,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     margin-top: 35px;
 }
 
@@ -292,7 +292,7 @@ body {
 
 .hero-content-location {
     width: 830px;
-    height: 106px;
+    height: 94px;
     margin-top: 0.5px;
     display: flex;
     justify-content: space-around;
@@ -475,9 +475,11 @@ body {
 }
 
 .browes-right-top-left p {
+    line-height: 21px;
     color: #4D5461;
     font-size: 15px;
-    opacity: 70%;
+    opacity: 75%;
+
 }
 
 .browes-right-bottom {
@@ -600,7 +602,7 @@ body {
 
 .landlord-card-img {
     margin-right: 3px;
-   height: 50px;
+    height: 50px;
     width: 122px;
 }
 
@@ -695,7 +697,7 @@ body {
     .landlord-card {
         width: 320px;
         height: auto;
-        min-height: 170px;
+        min-height: 150px;
         padding: 20px;
     }
 
@@ -716,7 +718,7 @@ body {
 @media (max-width: 576px) {
     .landlord-card {
         width: 280px;
-        padding: 25px;
+        padding: 20px;
     }
 
     .landlord-card-img {
@@ -809,7 +811,7 @@ body {
     margin: 0 auto;
     background: #FFFFFF;
     border: 1px solid #E0DEF7;
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 12px;
     box-sizing: border-box;
     text-align: center;
@@ -966,7 +968,7 @@ body {
     border: 1.5px solid #F0EFFB;
     width: 365px;
     background: #FFFFFF;
-    border-radius: 16px;
+    border-radius: 8px;
     /* overflow: hidden; */
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
     position: relative;
@@ -1001,7 +1003,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 16px 16px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 .popular-tag {
@@ -1206,7 +1208,7 @@ body {
     text-decoration: none;
     background: #100A55;
     color: #FFFFFF;
-    border-radius: 12px;
+    border-radius: 8px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -2222,12 +2224,12 @@ body {
 @media (max-width: 575px) {
 
     .landlord-content-top-left {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 140%;
         color: #FFFFFF;
-        width: 440px;
-        margin-left: 44px;
+        width: 437px;
+        margin-left: 64px
     }
 
     .landlord-content-top-left strong {
@@ -2239,9 +2241,9 @@ body {
 
     .landlord-content-top-right {
         opacity: 75%;
-        margin-left: 31px;
-        width: 310px;
-        font-size: 11px;
+        margin-left: 40px;
+        width: 357px;
+        font-size: 10px;
         line-height: 160%;
         color: #FFFFFF;
     }
@@ -2572,8 +2574,8 @@ body {
     }
 
     .promise-input {
-        width: 360px;
-        height: 51px;
+        width: 315px;
+        height: 50px;
         margin: 0 auto;
         background: #FFFFFF;
         border: 1px solid #E0DEF7;
@@ -2595,7 +2597,7 @@ body {
     }
 
     .promise-input input {
-        width: calc(100% - 157px);
+        width: calc(100% - 115px);
         height: 30px;
         border: none;
         outline: none;
@@ -2605,13 +2607,13 @@ body {
     }
 
     .promise-input button {
-        width: 106px;
-        height: 32px;
+        width: 96px;
+        height: 30px;
         background: #7065F0;
         color: #FFFFFF;
         border: none;
         border-radius: 8px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         cursor: pointer;
         vertical-align: middle;
