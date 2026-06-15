@@ -281,7 +281,7 @@ body {
     display: inline-block;
     cursor: pointer;
     border-bottom: 3px solid transparent;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     transition: all 0.3s ease;
 }
 
@@ -491,7 +491,7 @@ body {
     overflow-x: clip;
     background: #100A55;
     padding-top: 50px;
-    min-height: 700px;
+    min-height: 740px;
 }
 
 .landlord-content {
@@ -521,6 +521,7 @@ body {
 }
 
 .landlord-content-top-right {
+    opacity: 70%;
     width: 400px;
     font-size: 15px;
     line-height: 160%;
@@ -599,8 +600,8 @@ body {
 
 .landlord-card-img {
     margin-right: 3px;
-    height: 43px;
-    width: 130px;
+   height: 50px;
+    width: 122px;
 }
 
 .landlord-card-img img {
@@ -1113,13 +1114,13 @@ body {
 }
 
 .filter-left {
-    width: 377px;
-    height: 60px;
+    width: 342px;
+    height: 58px;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0EFFB 100%);
     border: 1.5px solid #E0DEF7;
     border-radius: 8px;
     display: flex;
-    padding: 20px;
+    padding: 8px;
     align-items: center;
 }
 
@@ -1157,14 +1158,14 @@ body {
 .filter-right {
     border: 2px solid #E0DEF7;
     margin-right: 160px;
-    width: 352px;
-    height: 60px;
-     border-radius: 8px;
+    width: 342px;
+    height: 58px;
+    border-radius: 8px;
     position: relative;
 }
 
 .filter-right input {
-    
+
     background: #F0EFFB;
     width: 100%;
     height: 100%;
@@ -1424,7 +1425,25 @@ body {
         display: none;
     }
 
+    .browse-btn a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background: #100A55;
+        color: #FFFFFF;
+        border-radius: 12px;
+        font-size: 15px;
+        font-weight: 700;
+    }
 
+    .browse-btn {
+        width: 236px;
+        height: 54px;
+        margin: 40px auto;
+    }
 
     .slider-property-cards .property-image {
         height: 200px;
@@ -1474,7 +1493,7 @@ body {
 
 @media (max-width: 480px) {
     .slider-property-cards .property-card {
-        width: 270px;
+        width: 260px;
     }
 
     .slider-property-cards .property-image {
@@ -2596,5 +2615,55 @@ body {
         font-weight: 600;
         cursor: pointer;
         vertical-align: middle;
+    }
+
+    .property-card {
+        margin-left: 9px;
+        width: 270px;
+        flex-shrink: 0;
+        min-height: auto;
+        background: #FFFFFF;
+        border-radius: 16px;
+        overflow: visible;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+        position: relative;
+    }
+
+    .popular-tag i {
+        position: absolute;
+        left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .popular-tag::before {
+        bottom: -8px;
+        left: 0;
+        content: '';
+        position: absolute;
+        height: 8px;
+        width: 8px;
+        background-color: #5245ED;
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+
+    .popular-tag {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 113px;
+        height: 32px;
+        /* position: absolute; */
+        left: -8px;
+        bottom: 45px;
+        background: #7065F0;
+        color: #fff;
+        font-size: 12px;
+        /* padding: 6px 12px; */
+        border-radius: 8px 8px 8px 0px;
+        z-index: 10;
     }
 }
