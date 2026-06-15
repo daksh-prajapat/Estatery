@@ -77,14 +77,15 @@ body {
 }
 
 .hero-content {
+    margin-left: 40px;
     font-size: 42px;
     padding-top: 54px;
-    max-width: 700px;
+    max-width: 690px;
 }
 
 .hero-content h1 {
     font-size: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 38px;
 }
 
 .hero-content p {
@@ -97,7 +98,7 @@ body {
     right: 0;
     top: -6%;
     width: 47%;
-    max-width: 718px;
+    max-width: 765px;
     height: 880px;
 }
 
@@ -262,11 +263,12 @@ body {
 }
 
 .hero-content-rent {
+text-align: center;
     width: 297px;
     height: 56px;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -274,8 +276,9 @@ body {
 }
 
 .hero-content-rent p {
+    width: 70px;
     font-size: 20px;
-    line-height: 145%;
+       line-height: 255%;
     letter-spacing: -0.5%;
     font-weight: 400;
     display: inline-block;
@@ -381,7 +384,7 @@ body {
 }
 
 .browes-left {
-    height: 500px;
+    height: 448px;
     width: 380px;
     background: #F7F7FD;
     border: 1.5px solid #E0DEF7;
@@ -391,22 +394,22 @@ body {
 }
 
 .browes-top-content {
-    width: 285px;
+    width: 283px;
     height: 205px;
     position: absolute;
     top: 45px;
-    left: 55px;
+    left: 44px;
     flex-direction: column;
 }
 
 .browes-top-content p {
-    font-size: 33px;
+    font-size: 29px;
     color: #100A55;
     font-weight: 700;
 }
 
 .browes-top-content span {
-    font-size: 16px;
+    font-size: 15px;
     color: #100A55;
     font-weight: 400;
     display: block;
@@ -430,19 +433,19 @@ body {
 .browes-content-img {
     position: absolute;
     left: auto;
-    right: -90px;
+    right: -107px;
     top: auto;
     bottom: -4px;
 }
 
 .browes-content-img img {
     width: auto;
-    max-width: 75%;
+    max-width: 70%;
     height: auto;
 }
 
 .browes-right {
-    height: 500px;
+    height: 448px;
     width: 640px;
     gap: 20px;
 }
@@ -451,7 +454,7 @@ body {
     height: 218px;
     width: 100%;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 44px;
 }
 
 .browes-right-top-left {
@@ -965,12 +968,12 @@ body {
 }
 
 .property-card {
-    border: 1.5px solid #F0EFFB;
+    border: 1.8px solid #F0EFFB;
     width: 365px;
     background: #FFFFFF;
     border-radius: 8px;
     /* overflow: hidden; */
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05); */
     position: relative;
 }
 
@@ -1117,7 +1120,7 @@ body {
 
 .filter-left {
     width: 342px;
-    height: 50px;
+    height: 64px;
     background: #F0EFFB;
     border: 1.5px solid #E0DEF7;
     border-radius: 8px;
@@ -1136,10 +1139,16 @@ body {
     cursor: pointer;
 }
 
+.filter-left button span {
+    font-size: 18px;
+    opacity: 55%;
+
+}
+
 .active {
     border: 2px solid #E0DEF7;
-    width: 95px;
-    height: 38px;
+    width: 105px;
+    height: 48px;
     background: #FFFFFF;
     border-radius: 6px;
     display: flex;
@@ -1148,7 +1157,12 @@ body {
 }
 
 .active button {
-    color: #7065F0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #7065F0 !important;
+    font-weight: 549 !important;
 }
 
 .filter-left button img {
@@ -1161,7 +1175,7 @@ body {
     border: 2px solid #E0DEF7;
     margin-right: 160px;
     width: 342px;
-    height: 50px;
+    height: 64px;
     border-radius: 8px;
     position: relative;
 }
@@ -1180,6 +1194,8 @@ body {
 }
 
 .filter-right input::placeholder {
+    opacity: 50%;
+    font-weight: 500;
     color: #100A55;
 }
 
@@ -1188,7 +1204,7 @@ body {
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 20px;
     color: #7065F0;
     pointer-events: none;
 }
