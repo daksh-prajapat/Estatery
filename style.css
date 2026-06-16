@@ -263,12 +263,13 @@ body {
 }
 
 .hero-content-rent {
+    gap: 17px;
     text-align: center;
     width: 297px;
     height: 56px;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -276,7 +277,7 @@ body {
 }
 
 .hero-content-rent p {
-    width: 70px;
+    width: 90px;
     font-size: 20px;
     line-height: 255%;
     letter-spacing: -0.5%;
@@ -737,7 +738,7 @@ body {
 }
 
 .promise-section {
-    background: #FAFAFE;
+    background: linear-gradient(90deg, rgba(247, 247, 253, 0.5) 0%, #F7F7FD 50.17%, rgba(247, 247, 253, 0.5) 100%);
     overflow-x: clip;
     padding-top: 50px;
     min-height: 420px;
@@ -776,10 +777,10 @@ body {
 }
 
 .promise-input {
-    width: 540px;
-    height: 70px;
+    width: 543px;
+    height: 80px;
     margin: 0 auto;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     /* border: 1px solid #E0DEF7; */
     border-radius: 8px;
     padding: 12px;
@@ -789,17 +790,19 @@ body {
 
 .promise-input input {
     width: calc(100% - 157px);
-    height: 48px;
+    height: 58px;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 19px;
     padding: 0 15px;
     vertical-align: middle;
+    opacity: 76%;
 }
 
 .promise-input button {
-    width: 132px;
-    height: 43px;
+    line-height: 150%;
+    width: 137px;
+    height: 48px;
     background: #7065F0;
     color: #FFFFFF;
     border: none;
@@ -1116,7 +1119,7 @@ body {
 
 .active {
     border: 2px solid #E0DEF7;
-    width: 105px;
+    width: 115px;
     height: 48px;
     background: #FFFFFF;
     border-radius: 6px;
@@ -1151,7 +1154,7 @@ body {
 
 .filter-right input {
 
-    background: #F0EFFB;
+    background: #f8f8f8;
     width: 100%;
     height: 100%;
     border: none;
@@ -1427,7 +1430,7 @@ body {
     }
 
     .browse-btn {
-              width: 215px;
+        width: 215px;
         height: 50px;
         margin: 40px auto;
     }
