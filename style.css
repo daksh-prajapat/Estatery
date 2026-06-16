@@ -77,14 +77,14 @@ body {
 }
 
 .hero-content {
-    margin-left: 40px;
+    margin-left: 65px;
     font-size: 42px;
     padding-top: 54px;
     max-width: 690px;
 }
 
 .hero-content h1 {
-    font-size: 60px;
+    font-size: 64px;
     margin-bottom: 38px;
 }
 
@@ -508,7 +508,7 @@ body {
 
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-right: 40px;
 }
 
@@ -741,7 +741,7 @@ body {
     background: linear-gradient(90deg, rgba(247, 247, 253, 0.5) 0%, #F7F7FD 50.17%, rgba(247, 247, 253, 0.5) 100%);
     overflow-x: clip;
     padding-top: 50px;
-    min-height: 420px;
+    min-height: 445px;
 }
 
 .promise-content {
@@ -771,6 +771,7 @@ body {
 }
 
 .promise-landlord p {
+    margin-top: 12px;
     font-size: 15px;
     color: #000929;
     opacity: 70%;
@@ -779,7 +780,7 @@ body {
 .promise-input {
     width: 543px;
     height: 80px;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: #FFFFFF;
     /* border: 1px solid #E0DEF7; */
     border-radius: 8px;
@@ -1166,14 +1167,15 @@ body {
 }
 
 .filter-right input::placeholder {
-    opacity: 50%;
+    opacity: 80%;
     font-weight: 500;
     color: #100A55;
 }
 
 .filter-right img {
-    width: 19px;
-    height: 19px;
+    opacity: 100% !important;
+    width: 22px;
+    height: 24px;
     position: absolute;
     left: 20px;
     top: 50%;
@@ -1210,7 +1212,7 @@ body {
 .header {
     width: 100%;
     border-bottom: 1px solid #E0DEF7;
-    background-color: rgba(224, 222, 247, 0.85);
+    background-color: rgb(228 226 246 / 85%);
 }
 
 /* Header ke andar .section-container ki padding hatao */
