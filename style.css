@@ -552,9 +552,9 @@ body {
     color: #FFFFFF;
 }
 
-/* ======================== */
+
 /* LANDLORD SLIDER - MODIFIED FOR AUTO-SCROLL & NO BUTTONS */
-/* ======================== */
+
 
 .landlord-slider-container {
     position: relative;
@@ -958,9 +958,9 @@ body {
      opacity: 0.70;
 }
 
-/* ======================== */
+
 /* PROPERTY CARDS - DESKTOP */
-/* ======================== */
+
 
 .desktop-property-cards {
     margin-left: 30px;
@@ -1274,9 +1274,9 @@ body {
     font-weight: 700;
 }
 
-/* ======================== */
+
 /* HEADER - #E0DEF7 with opacity */
-/* ======================== */
+
 
 .header {
     width: 100%;
@@ -1310,11 +1310,13 @@ body {
 }
 
 .logo img {
+    cursor: pointer;
     width: 22px;
     height: 22px;
 }
 
 .logo span {
+    cursor: pointer;
     font-size: 20px;
     font-weight: 700;
     color: #100A55;
@@ -1389,9 +1391,9 @@ body {
     border: 1px solid #8b89a0;
 }
 
-/* ======================== */
+
 /* PROPERTY MOBILE SLIDER */
-/* ======================== */
+
 
 .property-slider-container {
     display: none;
@@ -1589,9 +1591,9 @@ body {
     }
 }
 
-/* ======================== */
+
 /* RESPONSIVE STYLES */
-/* ======================== */
+
 
 @media (min-width: 1200px) and (max-width: 1350px) {
     .hero-content {
